@@ -1,0 +1,3 @@
+source ~\.vimrc
+" NormalModeに戻ったら半角にする
+set keep-english-in-normal
