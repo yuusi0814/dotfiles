@@ -8,3 +8,4 @@
 * .init.vim - NeoVimの設定
 * .ideavimrc - IdeaVimの設定
 * settings.zip - AndroidStudioの設定
+* alacrity.xml - Alacrittyの設定
