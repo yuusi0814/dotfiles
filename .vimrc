@@ -22,10 +22,20 @@ set wildmode=list:longest
 " 折り返し時に表示行単位での移動できるようにする
 nnoremap j gj
 nnoremap k gk
+" TerminalモードをEscで抜ける
+tnoremap <ESC> <C-\><C-n>
 " クリップボードに追加
 set clipboard+=unnamedplus
 " jjでEscを実行する
 inoremap <silent> jj <ESC>
+" 対応する括弧を自動入力する
+inoremap ' ''<Esc>i
+inoremap " ""<Esc>i
+inoremap ( ()<Esc>i
+inoremap { {}<Esc>i
+inoremap [ []<Esc>i
+" :eでファイルツリーを有効にする
+set wildmenu
 
 " 見た目系
 " 行番号を表示
