@@ -115,7 +115,7 @@ packloadall
 " 全てのプラグイン用にヘルプファイルをロードする
 silent! helptags All
 "vim-plug
-call plug#begin('~/AppData/Local/nvim-data/plugged')
+call plug#begin('~/.vim/plugged')
 
 "マッピング
 Plug 'tpope/vim-unimpaired'
