@@ -105,6 +105,147 @@ mkdir $Env:APPDATA\alacritty
 New-Item -Value ~\dotfiles\alacritty.yml -Path $Env:APPDATA\alacritty -Name alacritty.yml -ItemType SymbolicLink
 ```
 
+## GoogleChromeのインストール
+```
+scoop install googlechrome
+```
+
+## GlaryUtilitiesのインストール
+```
+scoop install glary-utilities
+```
+
+## Gitのインストール
+```
+scoop install git
+```
+
+## SourceTreeのインストール
+```
+scoop install sourcetree
+```
+
+## Slackのインストール
+```
+scoop install slack
+```
+
+## Zoomのインストール
+```
+scoop install zoom
+```
+
+## NEOVIMのインストール
+```
+scoop install neovim
+scoop install neovim-qt
+```
+
+## AndroidStudioのインストール
+```
+scoop install adb
+scoop install android-studio
+scoop install android-sdk
+scoop install android-clt
+```
+
+## VsCodeのインストール
+```
+scoop install vscode
+```
+
+## AWSCLIのインストール
+```
+scoop install aws
+```
+
+## AWSSAMのインストール
+```
+scoop install aws-sam-cli
+```
+
+## goのインストール
+```
+scoop install go
+```
+
+## protocのインストール
+```
+scoop install protobuf
+```
+
+## javaのインストール
+```
+scoop bucket add java
+scoop install openjdk
+```
+
+## Nodejsのインストール
+```
+scoop install nodejs
+```
+
+## Yarnのインストール
+```
+scoop install yarn
+```
+
+## Pythonのインストール
+```
+scoop install python
+```
+
+## Rustのインストール
+```
+scoop install rust
+```
+
+## Rubyのインストール
+```
+scoop install ruby
+scoop install mysy2
+```
+
+## coretempのインストール
+```
+scoop install coretemp
+```
+
+## deeplのインストール
+```
+scoop install deepl
+```
+
+## Audacityのインストール
+```
+scoop install audacity
+```
+
+## Linphoneのインストール
+```
+scoop install linphone
+```
+
+## thunderbirdのインストール
+```
+scoop install thunderbird
+```
+
+## Postgreqlのインストール
+```
+scoop install postgresql
+```
+
+## Postmanのインストール
+```
+scoop install postman
+```
+
+## WinMergeのインストール
+```
+scoop install winmerge
+```
+
 # Linuxでの環境構築
 
 ## dotfilesのclone
@@ -154,6 +295,13 @@ ln -s ~/dotfiles/init.vim .config/nvim/init.vim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 :PlugInstall
+```
+
+#### vim-plug
+
+* Pluginの保存先
+```
+~/.vim/plugged
 ```
 
 ### tmuxのインストール
