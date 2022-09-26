@@ -36,6 +36,8 @@ inoremap { {}<Esc>i
 inoremap [ []<Esc>i
 " :eでファイルツリーを有効にする
 set wildmenu
+" NERDTreeトグル
+nnoremap <C-t> :NERDTreeToggle<CR>
 
 " 見た目系
 " 行番号を表示
@@ -125,6 +127,12 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'tyrannicaltoucan/vim-deep-space', {'do': 'cp colors/* ~/.vim/colors/'}
 " SyntaxHighlight
 Plug 'nvim-treesitter/nvim-treesitter', {'do': 'TSUpdate'}
+" git
+Plug 'tpope/vim-fugitive'
+" git 変更行表示
+Plug 'airblade/vim-gitgutter'
+" ファイルツリー
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
