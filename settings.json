@@ -2,7 +2,7 @@
     "$comment": "デフォルト",
 
     "$comment": "ズームレベル",
-    "window.zoomLevel": 0.65,
+    "window.zoomLevel": 0.68,
     "$comment": "起動時に前回開いたウインドウを開かない",
     "window.restoreWindows": "none",
     "$comment": "自動保存",
@@ -18,4 +18,7 @@
     "$comment": "nvimのpath",
     "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\yuu_harada\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
     "tabnine.experimentalAutoImports": true,
+
+    "$comment": "カラースキーム",
+    "workbench.colorTheme": "Gruvbox Dark Soft",
 }
