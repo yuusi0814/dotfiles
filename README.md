@@ -181,6 +181,12 @@ scoop install scrypy
 scoop install vscode
 ```
 
+### configのシンボリックリンクを作成
+```
+New-Item -Value ~\dotfiles\settings.json -Path C:\Users\yuu_harada\scoop\apps\vscode\current\data\user-date\User -Name settings.json -ItemType SymbolicLink
+New-Item -Value ~\dotfiles\keybindings.json -Path C:\Users\yuu_harada\scoop\apps\vscode\current\data\user-date\User -Name keybindings.json -ItemType SymbolicLink
+```
+
 ## AWSCLIのインストール
 ```
 scoop install aws
@@ -199,6 +205,11 @@ scoop install aws-amplify
 ## goのインストール
 ```
 scoop install go
+```
+
+### pathを通す
+```
+GOPATH -> ~/go/bin
 ```
 
 ## protocのインストール
@@ -358,5 +369,17 @@ sudo apt install tmux
 2. dotfilesからシンボリックリンクを作成
 ```
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+```
+
+### awscliのインストール
+```
+sudo apt install awscli
+```
+
+* SAMもインストールしておく
+
+#### configのシンボリックリンクを貼る
+```
+ln -s mnt/c/Users/yuu_harada/.aws ~/.aws
 ```
 
