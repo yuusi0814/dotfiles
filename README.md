@@ -141,12 +141,39 @@ scoop install neovim
 scoop install neovim-qt
 ```
 
+## jqのインストール
+```
+scoop install jq
+```
+
+## zipのインストール
+```
+scoop install zip
+```
+
 ## AndroidStudioのインストール
 ```
 scoop install adb
 scoop install android-studio
 scoop install android-sdk
 scoop install android-clt
+```
+* Registoryにjreのpathを通す必要がある
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit]
+"CurrentVersion"="1.8"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.8]
+"JavaHome"="C:\Users\yuu_harada\scoop\apps\openjdk8-redhat-jre\current"
+```
+
+## scrypyのインストール
+```
+scoop install scrypy
 ```
 
 ## VsCodeのインストール
@@ -162,6 +189,11 @@ scoop install aws
 ## AWSSAMのインストール
 ```
 scoop install aws-sam-cli
+```
+
+## Amplifyのインストール
+```
+scoop install aws-amplify
 ```
 
 ## goのインストール
@@ -236,6 +268,11 @@ scoop install thunderbird
 scoop install postgresql
 ```
 
+## sqliteのインストール
+```
+scoop install sqlite
+```
+
 ## Postmanのインストール
 ```
 scoop install postman
@@ -244,6 +281,11 @@ scoop install postman
 ## WinMergeのインストール
 ```
 scoop install winmerge
+```
+
+## ngrokのインストール
+```
+scoop install ngrok
 ```
 
 # Linuxでの環境構築
