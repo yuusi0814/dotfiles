@@ -1,0 +1,21 @@
+{
+    "$comment": "デフォルト",
+
+    "$comment": "ズームレベル",
+    "window.zoomLevel": 0.65,
+    "$comment": "起動時に前回開いたウインドウを開かない",
+    "window.restoreWindows": "none",
+    "$comment": "自動保存",
+    "files.autoSave": "afterDelay",
+    "$comment": "同期する設定",
+    "settingsSync.ignoredSettings": [
+        "-window.zoomLevel"
+    ],
+
+    "$comment": "プラグイン",
+
+    "$comment": "vscode-neovim",
+    "$comment": "nvimのpath",
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\yuu_harada\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
+    "tabnine.experimentalAutoImports": true,
+}
