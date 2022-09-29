@@ -38,6 +38,21 @@ inoremap [ []<Esc>i
 set wildmenu
 " NERDTreeトグル
 nnoremap <C-t> :NERDTreeToggle<CR>
+" ウインドウ移動
+nnoremap sj <C-w>j
+nnoremap sk <C-w>k
+nnoremap sh <C-w>h
+nnoremap sl <C-w>l
+" ウインドウ自体を移動
+nnoremap sJ <C-w>J
+nnoremap sK <C-w>K
+nnoremap sH <C-w>H
+nnoremap sL <C-w>L
+" ウインドウのサイズ変更
+nnoremap s> <C-w>>
+nnoremap s< <C-w><
+nnoremap s+ <C-w>+
+nnoremap s- <C-w>-
 
 " 見た目系
 " 行番号を表示
