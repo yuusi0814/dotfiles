@@ -139,6 +139,7 @@ scoop install zoom
 ```
 scoop install neovim
 scoop install neovim-qt
+scoop install ctags
 ```
 
 ## jqのインストール

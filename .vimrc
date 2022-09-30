@@ -148,6 +148,14 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 " ファイルツリー
 Plug 'scrooloose/nerdtree'
+" ステータスライン
+Plug 'vim-airline/vim-airline'
+" LSP
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" 一括コメント
+Plug 'tpope/vim-commentary'
+" tag表示
+Plug 'preservim/tagbar'
 
 call plug#end()
 
@@ -173,3 +181,5 @@ highlight Folded ctermbg=none
 " ファイルの終わり以降の空白
 highlight EndOfBuffer ctermbg=none 
 
+" tagbar
+nmap <F8> :TagbarToggle<CR>
