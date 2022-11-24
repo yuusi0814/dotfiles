@@ -325,7 +325,7 @@ chsh
 
 3. dotfileからシンボリックリンクを作成
 ```
-mv .config/fish/config.fish dotfiles
+ln -s ~/dotfiles/config.fish .config/fish/config.fish
 ```
 
 ### neovimのインストール
