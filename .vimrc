@@ -29,11 +29,11 @@ set clipboard+=unnamedplus
 " jjでEscを実行する
 inoremap <silent> jj <ESC>
 " 対応する括弧を自動入力する
-inoremap ' ''<Esc>i
-inoremap " ""<Esc>i
-inoremap ( ()<Esc>i
-inoremap { {}<Esc>i
-inoremap [ []<Esc>i
+"inoremap ' ''<Esc>i
+"inoremap " ""<Esc>i
+"inoremap ( ()<Esc>i
+"inoremap { {}<Esc>i
+"inoremap [ []<Esc>i
 " :eでファイルツリーを有効にする
 set wildmenu
 " NERDTreeトグル

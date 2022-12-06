@@ -1,17 +1,4 @@
 {
-    "$comment": "デフォルト",
-
-    "$comment": "ズームレベル",
-    "window.zoomLevel": 0.68,
-    "$comment": "起動時に前回開いたウインドウを開かない",
-    "window.restoreWindows": "none",
-    "$comment": "自動保存",
-    "files.autoSave": "afterDelay",
-    "$comment": "同期する設定",
-    "settingsSync.ignoredSettings": [
-        "-window.zoomLevel"
-    ],
-
     "$comment": "プラグイン",
 
     "$comment": "vscode-neovim",
@@ -21,4 +8,78 @@
 
     "$comment": "カラースキーム",
     "workbench.colorTheme": "Gruvbox Dark Soft",
+
+    "$comment": "CompareFolders",
+    "$comment": "空行と空白を無視する",
+    "compareFolders.ignoreEmptyLines": true,
+    "compareFolders.ignoreAllWhiteSpaces": true,
+    "compareFolders.ignoreWhiteSpaces": true,
+
+    "$comment": "env",
+    "files.associations": {
+        "*.env.development*": "env",
+        "*.env.staging*": "env",
+        "*.env.production*": "env",
+    },
+
+    "$comment": "AWS",
+    "aws.suppressPrompts": {
+        "yamlExtPrompt": true
+    },
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+
+    "$comment": "Go-lang",
+    "go.formatTool": "gofmt",
+    "go.lintTool": "golangci-lint",
+
+    "$comment": "デフォルト",
+
+    "$comment": "ズームレベル",
+    "window.zoomLevel": 0.68,
+    "$comment": "起動時に前回開いたウインドウを開かない",
+    "window.restoreWindows": "none",
+    "$comment": "自動保存",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    "$comment": "同期する設定",
+    "settingsSync.ignoredSettings": [
+        "-window.zoomLevel",
+    ],
+    "$comment": "スタート画面",
+    "workbench.startupEditor": "none",
+    "$comment": "ファイル末尾に改行を入れる",
+    "files.insertFinalNewline": true,
+    "$comment": "行末の空白自動削除",
+    "files.trimTrailingWhitespace": true,
+
+    "$comment": "ここまでは手動設定",
+
 }
