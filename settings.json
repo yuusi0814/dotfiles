@@ -55,6 +55,12 @@
         "!Split",
         "!Split sequence"
     ],
+    "redhat.telemetry.enabled": false,
+
+    "$comment": "フォーマッター",
+    "[javascript, html, css, typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 
     "$comment": "Go-lang",
     "go.formatTool": "gofmt",
@@ -69,6 +75,7 @@
     "$comment": "自動保存",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 5000,
+    "editor.formatOnSave": true,
     "$comment": "同期する設定",
     "settingsSync.ignoredSettings": [
         "-window.zoomLevel",

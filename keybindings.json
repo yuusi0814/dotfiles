@@ -35,5 +35,70 @@
     "key": "f12",
     "command": "-editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "shift+f6",
+    "command": "-workbench.action.focusPreviousPart"
+  },
+  {
+    "key": "shift+f6",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f2",
+    "command": "-editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "workbench.action.moveEditorRightInGroup"
+  },
+  {
+    "key": "ctrl+shift+pagedown",
+    "command": "-workbench.action.moveEditorRightInGroup"
+  },
+  {
+    "key": "shift+alt+j",
+    "command": "workbench.action.moveEditorLeftInGroup"
+  },
+  {
+    "key": "ctrl+shift+pageup",
+    "command": "-workbench.action.moveEditorLeftInGroup"
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.previousEditorInGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+pageup",
+    "command": "-workbench.action.previousEditorInGroup"
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+pagedown",
+    "command": "-workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+space",
+    "command": "-editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+backspace",
+    "command": "-search.searchEditor.action.deleteFileResults",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "editor.action.showDefinitionPreviewHover"
   }
 ]
