@@ -1,27 +1,22 @@
 {
     "$comment": "プラグイン",
-
     "$comment": "vscode-neovim",
     "$comment": "nvimのpath",
     "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\yuu_harada\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
     "tabnine.experimentalAutoImports": true,
-
     "$comment": "カラースキーム",
     "workbench.colorTheme": "Gruvbox Dark Soft",
-
     "$comment": "CompareFolders",
     "$comment": "空行と空白を無視する",
     "compareFolders.ignoreEmptyLines": true,
     "compareFolders.ignoreAllWhiteSpaces": true,
     "compareFolders.ignoreWhiteSpaces": true,
-
     "$comment": "env",
     "files.associations": {
         "*.env.development*": "env",
         "*.env.staging*": "env",
         "*.env.production*": "env",
     },
-
     "$comment": "AWS",
     "aws.suppressPrompts": {
         "yamlExtPrompt": true
@@ -56,18 +51,14 @@
         "!Split sequence"
     ],
     "redhat.telemetry.enabled": false,
-
     "$comment": "フォーマッター",
     "[javascript, html, css, typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-
     "$comment": "Go-lang",
     "go.formatTool": "gofmt",
     "go.lintTool": "golangci-lint",
-
     "$comment": "デフォルト",
-
     "$comment": "ズームレベル",
     "window.zoomLevel": 0.68,
     "$comment": "起動時に前回開いたウインドウを開かない",
@@ -86,7 +77,7 @@
     "files.insertFinalNewline": true,
     "$comment": "行末の空白自動削除",
     "files.trimTrailingWhitespace": true,
-
+    "$comment": "アイコン",
+    "workbench.iconTheme": "vscode-icons",
     "$comment": "ここまでは手動設定",
-
 }
