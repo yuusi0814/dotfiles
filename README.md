@@ -184,8 +184,8 @@ scoop install vscode
 
 ### configのシンボリックリンクを作成
 ```
-New-Item -Value ~\dotfiles\settings.json -Path C:\Users\yuu_harada\scoop\apps\vscode\current\data\user-date\User -Name settings.json -ItemType SymbolicLink
-New-Item -Value ~\dotfiles\keybindings.json -Path C:\Users\yuu_harada\scoop\apps\vscode\current\data\user-date\User -Name keybindings.json -ItemType SymbolicLink
+New-Item -Value ~\dotfiles\settings.json -Path C:\Users\yuu_harada\scoop\apps\vscode\current\data\user-data\User -Name settings.json -ItemType SymbolicLink
+New-Item -Value ~\dotfiles\keybindings.json -Path C:\Users\yuu_harada\scoop\apps\vscode\current\data\user-data\User -Name keybindings.json -ItemType SymbolicLink
 ```
 
 ## AWSCLIのインストール
@@ -247,7 +247,7 @@ scoop install rust
 ## Rubyのインストール
 ```
 scoop install ruby
-scoop install mysy2
+scoop install msys2
 ```
 
 ## coretempのインストール
