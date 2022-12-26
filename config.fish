@@ -13,3 +13,10 @@ fish_add_path /mnt/c/Users/yuusi/scoop/android-sdk/current/build-tools/33.0.0
 
 # go
 fish_add_path /usr/local/go/bin
+fish_add_path /home/yuu_harada/go/bin
+
+# binary
+fish_add_path /home/yuu_harada/.local/bin
+
+# asdf
+source ~/.asdf/asdf.fish

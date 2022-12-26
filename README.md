@@ -184,8 +184,13 @@ scoop install vscode
 
 ### configのシンボリックリンクを作成
 ```
+<<<<<<< Updated upstream
 New-Item -Value ~\dotfiles\settings.json -Path C:\Users\yuu_harada\scoop\apps\vscode\current\data\user-data\User -Name settings.json -ItemType SymbolicLink
 New-Item -Value ~\dotfiles\keybindings.json -Path C:\Users\yuu_harada\scoop\apps\vscode\current\data\user-data\User -Name keybindings.json -ItemType SymbolicLink
+=======
+New-Item -Value ~/dotfiles/settings.json -Path C:/Users/yuu_harada/scoop/apps/vscode/current/data/user-data/User -Name settings.json -ItemType SymbolicLink
+New-Item -Value ~/dotfiles/keybindings.json -Path C:/Users/yuu_harada/scoop/apps/vscode/current/data/user-data/User -Name keybindings.json -ItemType SymbolicLink
+>>>>>>> Stashed changes
 ```
 
 ## AWSCLIのインストール
