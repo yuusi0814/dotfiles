@@ -100,5 +100,10 @@
   {
     "key": "ctrl+q",
     "command": "editor.action.showDefinitionPreviewHover"
+  },
+  {
+    "key": "alt+enter",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
   }
 ]
