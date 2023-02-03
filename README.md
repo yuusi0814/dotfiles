@@ -5,6 +5,48 @@ Scoopの導入
 Scoopで必要なパッケージのインストール
 WSLの導入
 
+tmux
+```
+ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+```
+
+vim
+```
+プロジェクト直下で管理者権限で実行
+New-Item -Value ./neovim/.vimrc -Path ~ -Name .vimrc -ItemType SymbolicLink
+
+ln -s ~/dotfiles/neovim/.vimrc ~/.vimrc
+```
+
+neovim
+```
+New-Item -Value ./neovim/init.vim -Path $Env:LOCALAPPDATA/nvim -Name init.vim -ItemType SymbolicLink
+
+mkdir .config/nvim
+ln -s ~/dotfiles/neovim/init.vim .config/nvim/init.vim
+```
+
+ideavim
+```
+New-Item -Value ./android_studio/.ideavimrc -Path ~ -Name .ideavimrc -ItemType SymbolicLink
+```
+
+alacritty
+```
+New-Item -Value ./alacritty/alacritty.yml -Path $Env:APPDATA/alacritty -Name alacritty.yml -ItemType SymbolicLink
+```
+
+fish
+```
+ln -s ~/dotfiles/fish/config.fish .config/fish/config.fish
+```
+
+vscode
+```
+New-Item -Value ./vscode/settings.json -Path ~/scoop/apps/vscode/current/data/user-data/User -Name settings.json -ItemType SymbolicLink
+New-Item -Value ./vscode/keybindings.json -Path ~/scoop/apps/vscode/current/data/user-data/User -Name keybindings.json -ItemType SymbolicLink
+```
+
 * Windows PowerShellでのシンボリックリンクの作成
 ```
 New-Item -Value ~\.vimrc -Path ~ -Name .vimrc -ItemType SymbolicLink```
