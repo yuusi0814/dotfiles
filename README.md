@@ -23,7 +23,7 @@ neovim
 New-Item -Value ./neovim/init.vim -Path $Env:LOCALAPPDATA/nvim -Name init.vim -ItemType SymbolicLink
 
 mkdir .config/nvim
-ln -s ~/dotfiles/neovim/init.vim .config/nvim/init.vim
+ln -s ~/dotfiles/neovim/init.vim ~/.config/nvim/init.vim
 ```
 
 ideavim
@@ -38,7 +38,7 @@ New-Item -Value ./alacritty/alacritty.yml -Path $Env:APPDATA/alacritty -Name ala
 
 fish
 ```
-ln -s ~/dotfiles/fish/config.fish .config/fish/config.fish
+ln -s ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
 ```
 
 vscode
