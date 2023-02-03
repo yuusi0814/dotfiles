@@ -27,13 +27,7 @@ tnoremap <ESC> <C-\><C-n>
 " クリップボードに追加
 set clipboard+=unnamedplus
 " jjでEscを実行する
-inoremap <silent> jj <ESC>
-" 対応する括弧を自動入力する
-"inoremap ' ''<Esc>i
-"inoremap " ""<Esc>i
-"inoremap ( ()<Esc>i
-"inoremap { {}<Esc>i
-"inoremap [ []<Esc>i
+"inoremap <silent> jj <ESC>
 " :eでファイルツリーを有効にする
 set wildmenu
 " NERDTreeトグル
@@ -179,7 +173,7 @@ highlight LineNr ctermbg=none
 " コマンドの折りたたみ
 highlight Folded ctermbg=none
 " ファイルの終わり以降の空白
-highlight EndOfBuffer ctermbg=none 
+highlight EndOfBuffer ctermbg=none
 
 " tagbar
 nmap <F8> :TagbarToggle<CR>

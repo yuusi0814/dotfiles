@@ -1,5 +1,10 @@
 # dotfiles
 
+TODO:
+Scoopの導入
+Scoopで必要なパッケージのインストール
+WSLの導入
+
 * Windows PowerShellでのシンボリックリンクの作成
 ```
 New-Item -Value ~\.vimrc -Path ~ -Name .vimrc -ItemType SymbolicLink```

@@ -39,6 +39,7 @@ colors:
     white: "0xFFFFFF"
 
 window:
+  # 背景透明度
   opacity: 0.6
 
 mouse:
@@ -53,5 +54,5 @@ mouse_bindings:
 selection:
   save_to_clipboard: true
 
-key_bindings: 
+key_bindings:
   - { key: Insert, mods: Shift, action: Paste }
