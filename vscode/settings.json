@@ -5,6 +5,8 @@
   // VSCode Neovim
   // Neovimのpath
   "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\yuu_harada\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
+  // Neovimのマウス選択
+  "vscode-neovim.mouseSelectionStartVisualMode": true,
   // GruvboxTheme
   // theme
   "workbench.colorTheme": "Gruvbox Dark Hard",
@@ -46,8 +48,6 @@
     "-window.zoomLevel"
   ],
   // エクスプローラーのアイコン
-  "workbench.iconTheme": "vscode-icons",
-  "window.zoomLevel": 1
-  /*
-  */
+  "workbench.iconTheme": "vscode-icons"
+  /**/
 }
