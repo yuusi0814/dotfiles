@@ -29,7 +29,7 @@ scoop bucket add extras java versions
 
 ### Install
 ```
-scoop install
+scoop install 7zip
 scoop install alacritty
 scoop install googlechrome
 scoop install glary-utilities
@@ -43,9 +43,10 @@ scoop install ctags
 scoop install jq
 scoop install zip
 scoop install adb
-scoop install android-studio
 scoop install android-sdk
-scoop install android-clt
+scoop install android-studio
+scoop install gradle
+scoop install openjdk
 scoop install scrypy
 scoop install vscode
 scoop install aws
@@ -53,7 +54,6 @@ scoop install aws-sam-cli
 scoop install aws-amplify
 scoop install go
 scoop install protobuf
-scoop install openjdk
 scoop install nodejs
 scoop install yarn
 scoop install python
