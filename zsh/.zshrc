@@ -14,3 +14,6 @@ export PATH=/home/yuu_harada/.local/bin:$PATH
 
 # asdf
 source ~/.asdf/asdf.fish
+
+# zshのプロンプトにpwdを表示
+PS1="%{$fg[cyan]%}[${USER}@${HOST%%.*} %1~]%(!.#.$)${reset_color} "
