@@ -145,7 +145,7 @@ Plug 'scrooloose/nerdtree'
 " ステータスライン
 Plug 'vim-airline/vim-airline'
 " LSP
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " 一括コメント
 Plug 'tpope/vim-commentary'
 " tag表示
