@@ -4,16 +4,22 @@ alias view='nvim -R'
 
 # Windowsにインストールしたコマンドのシンボリックリンク
 # Windowsにインストールしたコマンドを使う場合ここにシンボリックを貼っておく
-export PATH=~/windows_path:$PATH
+export PATH=$HOME/windows_path:$PATH
 
 # go
 export PATH=/usr/local/go/bin:$PATH
 
 # binary
-export PATH=/home/yuu_harada/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
-# asdf
-source ~/.asdf/asdf.fish
+# ruby
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init - zsh)"
 
 # zshのプロンプトにpwdを表示
 PS1="%{$fg[cyan]%}[${USER}@${HOST%%.*} %1~]%(!.#.$)${reset_color} "
+
+# nvm - auto generate
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
