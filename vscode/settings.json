@@ -27,6 +27,13 @@
   "php.validate.enable": true,
   // 組み込みのPHPサポート無効
   "php.suggest.basic": false,
+  // PHPのフォーマット
+  "intelephense.format.enable": false,
+  // Ptrhonのフォーマット
+  "python.linting.enabled": false,
+  /*
+  VScodeの設定
+  */
   // 起動時のプロジェクト復元
   "window.restoreWindows": "none",
   // 起動時のようこそ表示
