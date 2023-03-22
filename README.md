@@ -30,6 +30,7 @@ scoop bucket add extras java versions
 ### Install
 ```
 scoop install 7zip
+scoop install cmder
 scoop install alacritty
 scoop install googlechrome
 scoop install glary-utilities
@@ -103,8 +104,7 @@ chsh
 
 3. vim-plugのインストール
 ```
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 ```
 :PlugInstall
@@ -156,6 +156,11 @@ New-Item -Value ./alacritty/alacritty.yml -Path $Env:APPDATA/alacritty -Name ala
 fish
 ```
 ln -s ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
+```
+
+zsh
+```
+ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
 vscode
