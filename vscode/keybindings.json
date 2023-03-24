@@ -98,5 +98,15 @@
     "key": "alt+1",
     "command": "workbench.action.focusSideBar",
     "when": "editorTextFocus"
+  },
+  {
+    // SQLite選択行クエリ実行をctrl+shift+qに変更
+    "key": "ctrl+shift+q",
+    "command": "sqlite.runSelectedQuery"
+  },
+  {
+    "key": "ctrl+shift+q",
+    "command": "-sqlite.runDocumentQuery",
+    "when": "editorLangId =~ /(sql|sqlite)/"
   }
 ]
