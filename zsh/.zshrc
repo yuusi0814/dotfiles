@@ -8,6 +8,7 @@ export PATH=$HOME/windows_path:$PATH
 
 # go
 export PATH=/usr/local/go/bin:$PATH
+export PATH=$HOME/go/bin:$PATH
 
 # binary
 export PATH=$HOME/.local/bin:$PATH
