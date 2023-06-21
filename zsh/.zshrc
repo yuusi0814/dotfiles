@@ -23,3 +23,9 @@ PS1="%{$fg[cyan]%}[${USER}@${HOST%%.*} %1~]%(!.#.$)${reset_color} "
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# WindowsにインストールしたコマンドのPATH
+
+# vscode
+export PATH="/mnt/c/Users/yuu_harada/scoop/apps/vscode/current/bin:$PATH"
+

@@ -170,3 +170,9 @@ New-Item -Value ./vscode/settings.json -Path ~/scoop/apps/vscode/current/data/us
 ```
 New-Item -Value ./vscode/keybindings.json -Path ~/scoop/apps/vscode/current/data/user-data/User -Name keybindings.json -ItemType SymbolicLink
 ```
+
+windowsのpath
+```
+mkdir windows_path
+ln -s /mnt/c/Users/yuu_harada/scoop/apps/adb/current/platform-tools/adb.exe ~/windows_path/adb
+```
