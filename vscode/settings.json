@@ -17,6 +17,10 @@
     "*.env.staging*": "env",
     "*.env.production*": "env"
   },
+  // Github Copilot
+  "editor.inlineSuggest.enabled": true,
+  // draw.io(画像リサイズ)
+  "hediet.vscode-drawio.resizeImages": null,
   /*
   言語設定
   */
@@ -50,10 +54,10 @@
   "editor.formatOnSave": true,
   // ホバー自動表示
   "editor.hover.enabled": false,
+  // ブラケットペア可視化
+  "editor.guides.bracketPairs": true,
   // 同期しない設定
-  "settingsSync.ignoredSettings": [
-    "-window.zoomLevel"
-  ],
+  "settingsSync.ignoredSettings": ["-window.zoomLevel", "editor.fontSize"],
   // エクスプローラーのアイコン
   "workbench.iconTheme": "vscode-icons"
   /**/
