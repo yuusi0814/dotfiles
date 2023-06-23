@@ -48,14 +48,19 @@
     "command": "workbench.action.nextEditorInGroup"
   },
   {
-    // ヒントをctrl+qに変更
-    "key": "ctrl+q",
-    "command": "editor.action.triggerParameterHints",
-    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    // サジェストをalt+enterに変更
+    "key": "alt+enter",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
   },
   {
-    // ホバー表示をalt+enterに変更
-    "key": "alt+enter",
+    "key": "ctrl+space",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  {
+    // ホバー表示をctrl+qに変更
+    "key": "ctrl+q",
     "command": "editor.action.showHover",
     "when": "editorTextFocus"
   },
