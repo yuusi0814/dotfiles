@@ -26,7 +26,7 @@
   */
   // PHPのpath(実行用)
   "php.debug.executablePath": "C:\\xampp\\php\\php.exe",
-  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "php.validate.executablePath": "C:\\xampp\\php824\\php.exe",
   // PHPのバリデーション
   "php.validate.enable": true,
   // 組み込みのPHPサポート無効
