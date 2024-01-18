@@ -29,48 +29,7 @@ scoop bucket add extras java versions
 
 ### Install
 ```
-scoop install 7zip
-scoop install cmder
-scoop install alacritty
-scoop install googlechrome
-scoop install glary-utilities
-scoop install git
-scoop install sourcetree
-scoop install slack
-scoop install zoom
-scoop install neovim
-scoop install neovim-qt
-scoop install ctags
-scoop install jq
-scoop install zip
-scoop install adb
-scoop install android-sdk
-scoop install android-studio
-scoop install gradle
-scoop install openjdk
-scoop install scrypy
-scoop install vscode
-scoop install aws
-scoop install aws-sam-cli
-scoop install aws-amplify
-scoop install go
-scoop install protobuf
-scoop install nodejs
-scoop install yarn
-scoop install python
-scoop install rust
-scoop install ruby
-scoop install msys2
-scoop install coretemp
-scoop install deepl
-scoop install audacity
-scoop install linphone
-scoop install thunderbird
-scoop install postgresql
-scoop install sqlite
-scoop install postman
-scoop install winmerge
-scoop install ngrok
+./scoo/list.txt参照
 ```
 
 ## WSLのインストール

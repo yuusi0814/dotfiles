@@ -1,117 +1,127 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
-  // Bookmarks
-  {
-    // Bookmarkをctrl+kに変更
-    "key": "ctrl+k",
-    "command": "bookmarks.toggle",
-    "when": "editorTextFocus"
-  },
-  // VSCode Neovim
-  {
-    // ctrl+fはIDEショートカットを使う
-    "key": "ctrl+f",
-    "command": "-extension.vim_ctrl+f",
-    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl"
-  },
-  {
-    // ctrl+kはBookmarkを使う
-    "key": "ctrl+k",
-    "command": "-extension.vim_ctrl+k",
-    "when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
-  },
-  // IDEの設定
-  {
-    // 定義移動をctrl+bに変更
-    "key": "ctrl+b",
-    "command": "editor.action.revealDefinition",
-    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-  },
-  {
-    // リネームをshift+f6に変更
-    "key": "shift+f6",
-    "command": "editor.action.rename",
-    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "shift+f6",
-    "command": "-workbench.action.focusPreviousPart"
-  },
-  {
-    // tab左移動をalt+jに変更
-    "key": "alt+j",
-    "command": "workbench.action.previousEditorInGroup"
-  },
-  {
-    // tab右移動をalt+kに変更
-    "key": "alt+k",
-    "command": "workbench.action.nextEditorInGroup"
-  },
-  {
-    // サジェストをalt+enterに変更
-    "key": "alt+enter",
-    "command": "editor.action.triggerSuggest",
-    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
-  },
-  {
-    "key": "ctrl+space",
-    "command": "-editor.action.triggerSuggest",
-    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
-  },
-  {
-    // ホバー表示をctrl+qに変更
-    "key": "ctrl+q",
-    "command": "editor.action.showHover",
-    "when": "editorTextFocus"
-  },
-  {
-    // 画面グループ左移動をs+hに変更(insertモード以外)
-    "key": "s h",
-    "command": "workbench.action.focusLeftGroup",
-    "when": "editorTextFocus && neovim.mode != insert"
-  },
-  {
-    // 画面グループ右移動をs+hに変更(insertモード以外)
-    "key": "s l",
-    "command": "workbench.action.focusRightGroup",
-    "when": "editorTextFocus && neovim.mode != insert"
-  },
-  {
-    // ターミナル表示をctrl+tに変更
-    "key": "ctrl+t",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
-    "key": "ctrl+oem_3",
-    "command": "-workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
-    // 出力表示をctrl+oに変更
-    "key": "ctrl+o",
-    "command": "workbench.action.output.toggleOutput",
-    "when": "terminal.active"
-  },
-  {
-    // サイドバー表示をalt+1に変更
-    "key": "alt+1",
-    "command": "workbench.action.toggleSidebarVisibility"
-  },
-  {
-    // サイドバーフォーカスをalt+1に変更
-    "key": "alt+1",
-    "command": "workbench.action.focusSideBar",
-    "when": "editorTextFocus"
-  },
-  {
-    // SQLite選択行クエリ実行をctrl+shift+qに変更
-    "key": "ctrl+shift+q",
-    "command": "sqlite.runSelectedQuery"
-  },
-  {
-    "key": "ctrl+shift+q",
-    "command": "-sqlite.runDocumentQuery",
-    "when": "editorLangId =~ /(sql|sqlite)/"
-  }
+    // Bookmarks
+    {
+        // Bookmarkをctrl+kに変更
+        "key": "ctrl+k",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    // VSCode Neovim
+    {
+        // ctrl+fはIDEショートカットを使う
+        "key": "ctrl+f",
+        "command": "-extension.vim_ctrl+f",
+        "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl"
+    },
+    {
+        // ctrl+kはBookmarkを使う
+        "key": "ctrl+k",
+        "command": "-extension.vim_ctrl+k",
+        "when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
+    },
+    // IDEの設定
+    {
+        // 定義移動をctrl+bに変更
+        "key": "ctrl+b",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        // リネームをshift+f6に変更
+        "key": "shift+f6",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+f6",
+        "command": "-workbench.action.focusPreviousPart"
+    },
+    {
+        // tab左移動をalt+jに変更
+        "key": "alt+j",
+        "command": "workbench.action.previousEditorInGroup"
+    },
+    {
+        // tab右移動をalt+kに変更
+        "key": "alt+k",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    {
+        // サジェストをalt+enterに変更
+        "key": "alt+enter",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+    },
+    {
+        // ホバー表示をctrl+qに変更
+        "key": "ctrl+q",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        // 画面グループ左移動をs+hに変更(insertモード以外)
+        "key": "s h",
+        "command": "workbench.action.focusLeftGroup",
+        "when": "editorTextFocus && neovim.mode != insert"
+    },
+    {
+        // 画面グループ右移動をs+hに変更(insertモード以外)
+        "key": "s l",
+        "command": "workbench.action.focusRightGroup",
+        "when": "editorTextFocus && neovim.mode != insert"
+    },
+    {
+        // ターミナル表示をctrl+tに変更
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+oem_3",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        // 出力表示をctrl+oに変更
+        "key": "ctrl+o",
+        "command": "workbench.action.output.toggleOutput",
+        "when": "terminal.active"
+    },
+    {
+        // サイドバー表示をalt+1に変更
+        "key": "alt+1",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        // サイドバーフォーカスをalt+1に変更
+        "key": "alt+1",
+        "command": "workbench.action.focusSideBar",
+        "when": "editorTextFocus"
+    },
+    {
+        // SQLite選択行クエリ実行をctrl+shift+qに変更
+        "key": "ctrl+shift+q",
+        "command": "sqlite.runSelectedQuery"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "-sqlite.runDocumentQuery",
+        "when": "editorLangId =~ /(sql|sqlite)/"
+    },
+    {
+        // back
+        "key": "alt+h",
+        "command": "workbench.action.navigateBack",
+    },
+    {
+        // forward
+        "key": "alt+l",
+        "command": "workbench.action.navigateForward",
+    }
 ]
