@@ -1,73 +1,134 @@
 {
-    /*
+  /*
   プラグイン
   */
-    // VSCode Neovim
-    // Neovimのpath
-    "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\yuu_harada\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
-    // Neovimのマウス選択
-    "vscode-neovim.mouseSelectionStartVisualMode": true,
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
-    },
-    // GruvboxTheme
-    // theme
-    "workbench.colorTheme": "Gruvbox Dark Hard",
-    // ENV
-    // envファイルとして読み込むファイル
-    "files.associations": {
-        "*.env.development*": "env",
-        "*.env.staging*": "env",
-        "*.env.production*": "env"
-    },
-    // Github Copilot
-    "editor.inlineSuggest.enabled": true,
-    // draw.io(画像リサイズ)
-    "hediet.vscode-drawio.resizeImages": null,
-    // Go Plugin
-    "go.toolsManagement.autoUpdate": true,
-    /*
+  // VSCode Neovim
+  // Neovimのpath
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\yuu_harada\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
+  // Neovimのマウス選択
+  "vscode-neovim.mouseSelectionStartVisualMode": true,
+  "extensions.experimental.affinity": {
+      "asvetliakov.vscode-neovim": 1
+  },
+  // GruvboxTheme
+  // theme
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  // ENV
+  // envファイルとして読み込むファイル
+  "files.associations": {
+      "*.env.development*": "env",
+      "*.env.staging*": "env",
+      "*.env.production*": "env"
+  },
+  // Github Copilot
+  "editor.inlineSuggest.enabled": true,
+  // draw.io(画像リサイズ)
+  "hediet.vscode-drawio.resizeImages": null,
+  // Go Plugin
+  "go.toolsManagement.autoUpdate": true,
+  /*
   言語設定
   */
-    // PHPのpath(実行用)
-    "php.debug.executablePath": "C:\\xampp\\php\\php.exe",
-    "php.validate.executablePath": "C:\\xampp\\php824\\php.exe",
-    // PHPのバリデーション
-    "php.validate.enable": true,
-    // 組み込みのPHPサポート無効
-    "php.suggest.basic": false,
-    // PHPのフォーマット
-    "intelephense.format.enable": false,
-    // Ptrhonのフォーマット
-    "python.linting.enabled": false,
-    /*
+  // PHPのpath(実行用)
+  "php.debug.executablePath": "C:\\xampp\\php\\php.exe",
+  "php.validate.executablePath": "C:\\xampp\\php824\\php.exe",
+  // PHPのバリデーション
+  "php.validate.enable": true,
+  // 組み込みのPHPサポート無効
+  "php.suggest.basic": false,
+  // PHPのフォーマット
+  "intelephense.format.enable": false,
+  // Ptrhonのフォーマット
+  "python.linting.enabled": false,
+  /*
   VScodeの設定
   */
-    // 起動時のプロジェクト復元
-    "window.restoreWindows": "none",
-    // ズームレベル
-    "window.zoomLevel": 0.5,
-    // 起動時のようこそ表示
-    "workbench.startupEditor": "none",
-    // 自動保存
-    "files.autoSave": "afterDelay",
-    // 自動保存タイミング
-    "files.autoSaveDelay": 5000,
-    // ファイル末尾の改行挿入
-    "files.insertFinalNewline": true,
-    // 行末の空白削除
-    "files.trimTrailingWhitespace": true,
-    // 自動保存時の整形
-    "editor.formatOnSave": true,
-    // ホバー自動表示
-    "editor.hover.enabled": false,
-    // ブラケットペア可視化
-    "editor.guides.bracketPairs": true,
-    "editor.fontSize": 15,
-    "settingsSync.ignoredSettings": [
-        "-window.zoomLevel",
-        "editor.fontSize"
-    ],
-    // エクスプローラーのアイコン
-    "workbench.iconTheme": "vscode-icons",
+  // 起動時のプロジェクト復元
+  "window.restoreWindows": "none",
+  // ズームレベル
+  "window.zoomLevel": 0.5,
+  // 起動時のようこそ表示
+  "workbench.startupEditor": "none",
+  // 自動保存
+  "files.autoSave": "afterDelay",
+  // 自動保存タイミング
+  "files.autoSaveDelay": 5000,
+  // ファイル末尾の改行挿入
+  "files.insertFinalNewline": true,
+  // 行末の空白削除
+  "files.trimTrailingWhitespace": true,
+  // 自動保存時の整形
+  "editor.formatOnSave": true,
+  // ホバー自動表示
+  "editor.hover.enabled": false,
+  // ブラケットペア可視化
+  "editor.guides.bracketPairs": true,
+  "editor.fontSize": 15,
+  "settingsSync.ignoredSettings": [
+      "-window.zoomLevel",
+      "editor.fontSize"
+  ],
+  // ツリーの固定
+  "workbench.tree.enableStickyScroll": true,
+  // エラー音を鳴らさない
+  "accessibility.signals.lineHasError": {
+    "sound": "off",
+    "announcement": "off"
+  },
+  "accessibility.signals.chatResponseReceived": {
+    "sound": "off"
+  },
+  "accessibility.signals.chatRequestSent": {
+    "sound": "off"
+  },
+  "accessibility.signals.clear": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineModified": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasBreakpoint": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasInlineSuggestion": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasFoldedArea": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineDeleted": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineInserted": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasWarning": {
+    "sound": "off"
+  },
+  "accessibility.signals.progress": {
+    "sound": "off"
+  },
+  // エクスプローラーのアイコン
+  "workbench.iconTheme": "vscode-icons",
+  // ファイルの移動時のインポートの更新
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // ファイル削除時の確認
+  "explorer.confirmDelete": false,
+
+  /*
+  非コミット
+  */
+  // SSH設定
+  "remote.SSH.remotePlatform": {
+      "stg-shinshirei-mcivr": "linux"
+  },
+  // GithubCopiliot設定
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.enable": {
+      "*": true,
+      "plaintext": true,
+      "markdown": true,
+      "scminput": false
+  },
 }
