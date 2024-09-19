@@ -4,11 +4,12 @@
   */
   // VSCode Neovim
   // Neovimのpath
-  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\yuu_harada\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
+  // "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\yuu_harada\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Tools\\nvim-win64\\bin\\nvim.exe",
   // Neovimのマウス選択
   "vscode-neovim.mouseSelectionStartVisualMode": true,
   "extensions.experimental.affinity": {
-      "asvetliakov.vscode-neovim": 1
+    "asvetliakov.vscode-neovim": 1
   },
   // GruvboxTheme
   // theme
@@ -16,9 +17,9 @@
   // ENV
   // envファイルとして読み込むファイル
   "files.associations": {
-      "*.env.development*": "env",
-      "*.env.staging*": "env",
-      "*.env.production*": "env"
+    "*.env.development*": "env",
+    "*.env.staging*": "env",
+    "*.env.production*": "env"
   },
   // Github Copilot
   "editor.inlineSuggest.enabled": true,
@@ -57,6 +58,9 @@
   "files.insertFinalNewline": true,
   // 行末の空白削除
   "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
   // 自動保存時の整形
   "editor.formatOnSave": true,
   // ホバー自動表示
@@ -65,8 +69,8 @@
   "editor.guides.bracketPairs": true,
   "editor.fontSize": 15,
   "settingsSync.ignoredSettings": [
-      "-window.zoomLevel",
-      "editor.fontSize"
+    "-window.zoomLevel",
+    "editor.fontSize"
   ],
   // ツリーの固定
   "workbench.tree.enableStickyScroll": true,
@@ -115,20 +119,21 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   // ファイル削除時の確認
   "explorer.confirmDelete": false,
-
   /*
   非コミット
   */
   // SSH設定
   "remote.SSH.remotePlatform": {
-      "stg-shinshirei-mcivr": "linux"
+    "stg-shinshirei-mcivr": "linux"
   },
   // GithubCopiliot設定
   "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
-      "*": true,
-      "plaintext": true,
-      "markdown": true,
-      "scminput": false
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
   },
+  "hediet.vscode-drawio.theme": "Kennedy",
+  "markdown-pdf.mermaidServer": "https://unpkg.com/mermaid@9.4.0/dist/mermaid.min.js",
 }

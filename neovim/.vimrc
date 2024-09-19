@@ -115,7 +115,7 @@ syntax enable
 
 " JSON整形
 if executable('jq')
-    command! Jqf %!jq .
+    command! -range=% Jqf <line1>,<line2>!jq .
 endif
 " テストコマンド
 command Usmr echo "USMR COMMAND!"
@@ -135,7 +135,7 @@ Plug 'sainnhe/gruvbox-material'
 " ColorSchemeを/.vim.colorsにコピー(コピされてないけどなんか動く)
 Plug 'tyrannicaltoucan/vim-deep-space', {'do': 'cp colors/* ~/.vim/colors/'}
 " SyntaxHighlight
-Plug 'nvim-treesitter/nvim-treesitter', {'do': 'TSUpdate'}
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': 'TSUpdate'}
 " git
 Plug 'tpope/vim-fugitive'
 " git 変更行表示
