@@ -136,4 +136,7 @@
   },
   "hediet.vscode-drawio.theme": "Kennedy",
   "markdown-pdf.mermaidServer": "https://unpkg.com/mermaid@9.4.0/dist/mermaid.min.js",
+  "markdown-pdf.displayHeaderFooter": false,
+  "markdown-pdf.emoji": false,
+  "markdown-pdf.breaks": true,
 }

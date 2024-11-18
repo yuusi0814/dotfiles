@@ -20,6 +20,12 @@
         "command": "-extension.vim_ctrl+k",
         "when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
     },
+    {
+        "key": "ctrl+[",
+        "command": "vscode-neovim.send",
+        "when": "editorTextFocus && neovim.init",
+        "args": "<esc>"
+    },
     // IDEの設定
     {
         // 定義移動をctrl+bに変更
